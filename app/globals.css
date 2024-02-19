@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'tailwindcss/tailwind.css';
+
+@media screen and (max-width : 480px){
+    .task{
+        width: 100%;
+    }
+    .delete-div{
+        left: 10%;
+        width: 400px;
+    }
+    .addTask{
+        width: 400px;
+        position: absolute;
+        left: 7px;
+        background-color: #ccc;
+    }
+    .editTask{
+        width: 100%;
+        left: 40px;
+    }
+}
